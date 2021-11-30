@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigation.ProfileFragment">
+
+
+
+   <LinearLayout
+       android:layout_marginTop="100dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center">
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          app:srcCompat="@drawable/photo_user" />
+
+      <LinearLayout
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+         android:orientation="horizontal">
+         <TextView
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:textSize="20dp"
+             android:text="Nombre:  "
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         <TextView
+             android:id="@+id/txtnombre"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginTop="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+         <TextView
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:textSize="20dp"
+             android:text="Correo:  "
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         <TextView
+             android:id="@+id/txtcorreo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="20dp"/>
+
+      </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+</FrameLayout>
